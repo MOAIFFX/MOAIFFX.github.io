@@ -124,15 +124,15 @@ setInterval(() => {
     const symbols = document.querySelectorAll('.bg-symbols .symbol');
     if (symbols.length > 0) {
         const randomSymbol = symbols[Math.floor(Math.random() * symbols.length)];
-        randomSymbol.style.opacity = '0.06';
-        randomSymbol.style.textShadow = '0 0 60px rgba(255,255,255,0.2)';
+        randomSymbol.style.opacity = '0.12';
+        randomSymbol.style.textShadow = '0 0 30px rgba(255,255,255,0.15)';
         
         setTimeout(() => {
-            randomSymbol.style.opacity = '0.03';
+            randomSymbol.style.opacity = '0.08';
             randomSymbol.style.textShadow = 'none';
-        }, 500);
+        }, 300);
     }
-}, 2000);
+}, 3000);
 
 // Параллакс при движении мыши
 document.addEventListener('mousemove', (e) => {

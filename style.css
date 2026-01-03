@@ -49,7 +49,8 @@ html, body {
     position: absolute;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 700;
-    opacity: 0.03;
+    opacity: 0.08;
+    text-shadow: 0 0 30px rgba(255,255,255,0.15);
     color: var(--white);
     font-size: 140px;
     animation: float 25s infinite linear;
